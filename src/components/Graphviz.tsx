@@ -30,7 +30,7 @@ export const Graphviz: React.FC<GraphvizProps> = ({ dot, engine }) => {
                     setError("Unexpected error parsing DOT.");
                 }
             }
-            setData(dot); // Update current data
+            setData(dot);
         }
     }, [dot, engine]);
 

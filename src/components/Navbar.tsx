@@ -1,12 +1,11 @@
-import { Spacer } from "@nextui-org/react";
 import React from "react";
+import { Spacer } from "@nextui-org/react";
 
 interface NavbarProps {
     children?: React.ReactNode;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ children }) => {
-
     return (
         <nav className="bg-white text-zinc-900 w-1/5 h-full flex flex-col items-start justify-between p-4">
             <div>
