@@ -19,6 +19,7 @@
     "@types/d3-graphviz": "^2.6.10",
     "@uiw/react-codemirror": "^4.23.7",
     "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^1.1.0",
     "@viz-js/lang-dot": "^1.0.4",
     "d3": "^7.9.0",
     "d3-graphviz": "^5.6.0",

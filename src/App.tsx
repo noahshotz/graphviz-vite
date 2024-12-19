@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import React, { useState } from "react";
 import { NextUIProvider, Select, SelectItem, SharedSelection } from "@nextui-org/react";
 import { Graphviz } from "./components/Graphviz";
@@ -26,6 +27,7 @@ function App() {
   return (
     <React.Fragment>
       <Analytics />
+      <SpeedInsights />
       <NextUIProvider>
         <main className="bg-white w-full h-screen flex flex-row">
 
