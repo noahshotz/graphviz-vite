@@ -35,7 +35,7 @@ function App() {
           <Navbar>
             <Select
               label="Presets"
-              placeholder="Preset auswählen"
+              placeholder="Select a preset"
               size="sm"
               startContent={<BiChart size={20} />}
               onSelectionChange={handleSelectChange}
@@ -46,7 +46,7 @@ function App() {
             </Select>
             <Select
               label="Layout engine"
-              placeholder="Engine auswählen"
+              placeholder="Select engine"
               size="sm"
               startContent={<BiChip size={20} />}
               onSelectionChange={handleEngineChange}
